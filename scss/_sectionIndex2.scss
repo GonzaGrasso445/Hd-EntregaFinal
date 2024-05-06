@@ -1,0 +1,53 @@
+.sectionIndex2{
+    .section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        .boxSection-Motorcycle{
+            border: 2px solid $white;
+            width: 250px;
+            height: 250px;
+            margin-top: 50px;
+            margin-left: 10px;
+            text-align: center;
+            padding: 40px 10px 20px 10px;
+            font-size: 15px;
+            font-family: "Farro", sans-serif;
+            text-transform: uppercase;
+            border-radius: 20px;
+            &:hover>.img-box-section{
+                border: 2px solid $darkOrange;
+                border-radius: 5px;
+                transition: 3s;
+            }
+            &:hover>.p1Section-motorcycle{
+                color: $white;
+            }
+            &:hover>.p2Section-motorcycle{
+                transition: 3s;
+                font-size: 25px;
+                color: $darkOrange;
+                opacity:100%
+            }
+            .img-box-section{
+                width: 50px;
+                height: 50px;
+                margin-bottom: 20px;
+                opacity: 100%;
+                
+
+            }
+            .p2Section-motorcycle{
+                padding-bottom: 30px;
+                font-size: 10px;
+                opacity: 3%;
+            }
+            .p1Section-motorcycle{
+                padding: 5px;
+                color: $darkOrange;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,48 @@
+
+/* This is the nav for all the html documents in the project*/
+.container-fluid{
+    width: 94vw;
+    
+    .bnav{
+        background-color: $black;
+        a{
+            color: $white;
+            font-family: "Farro", sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            &:hover{
+               color: $darkOrange;
+            }
+        }
+        .img-nav{
+            width: 50px;
+            height: 50px;
+            border: 1px solid $darkOrange;
+            border-radius: 50px;
+            margin-left: 30px ;
+            &:hover{
+                border: 3px solid $darkOrange;
+            }
+           
+        }   
+        .navbar-collapse{
+            padding: 15px;
+            .dropdown-menu{
+                background-color: $black;
+                border: 2px solid $beige;
+                .item{
+                    background-color: $black;
+                    text-align: center;
+                    font-family: "Farro", sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                }
+            }
+        }
+        
+        
+        
+    }
+   
+}

@@ -1,0 +1,920 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+/* This is the nav for all the html documents in the project*/
+.container-fluid {
+  width: 94vw;
+}
+.container-fluid .bnav {
+  background-color: #000000;
+}
+.container-fluid .bnav a {
+  color: #ffffff;
+  font-family: "Farro", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container-fluid .bnav a:hover {
+  color: #ff4500;
+}
+.container-fluid .bnav .img-nav {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ff4500;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.container-fluid .bnav .img-nav:hover {
+  border: 3px solid #ff4500;
+}
+.container-fluid .bnav .navbar-collapse {
+  padding: 15px;
+}
+.container-fluid .bnav .navbar-collapse .dropdown-menu {
+  background-color: #000000;
+  border: 2px solid #f5f5dc;
+}
+.container-fluid .bnav .navbar-collapse .dropdown-menu .item {
+  background-color: #000000;
+  text-align: center;
+  font-family: "Farro", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mainIndex .principalTitle {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Farro", sans-serif;
+  border: none;
+  color: #ffffff;
+}
+.mainIndex .principalTitle span {
+  text-align: center;
+  color: #ff4500;
+  text-shadow: 1px 1px #ffffff;
+  font-weight: bold;
+}
+.mainIndex .row .box-1 {
+  margin-top: 100px;
+  border: 3px solid #ffffff;
+  padding: 0;
+}
+.mainIndex .row .wp-main {
+  width: 100%;
+  height: 600px;
+}
+.mainIndex .box-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #ffffff;
+}
+.mainIndex .box-2 .imgBtmodal {
+  padding-left: 10px;
+}
+.mainIndex .box-2 .title-1 {
+  color: #f5f5dc;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+.mainIndex .box-2 .custom-btn {
+  background-color: #ff4500;
+  width: 180px;
+  height: 60px;
+  margin-top: 100px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  border-color: #ffffff;
+}
+.mainIndex .box-2 .custom-btn:hover {
+  background-color: #000000;
+  border-color: #ff4500;
+}
+.mainIndex .modalfade {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+}
+.mainIndex .modalfade .modal-content {
+  border: 5px solid #ffffff;
+  background-color: #000000;
+}
+.mainIndex .modalfade .modal-content .modal-header {
+  background-color: #000000;
+  text-align: center;
+  position: fixed;
+}
+.mainIndex .modalfade .modal-content .modal-header .img-bt {
+  width: 150px;
+}
+.mainIndex .modalfade .modal-content .modal-body {
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.mainIndex .modalfade .modal-content .modal-body h1 {
+  color: #f5f5dc;
+}
+.mainIndex .modalfade .modal-content .modal-body h3 {
+  color: #f5f5dc;
+  border-bottom: 2px solid #ff4500;
+}
+.mainIndex .modalfade .modal-content .modal-body .p1-bt {
+  font-size: 13px;
+  font-weight: bold;
+  color: #f5f5dc;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+}
+.mainIndex .modalfade .modal-content .modal-body .p2-bt {
+  color: #f5f5dc;
+  font-size: 28px;
+  border-bottom: 2px solid #ff4500;
+}
+.mainIndex .modalfade .modal-content .modal-body .socialMedia {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mainIndex .modalfade .modal-content .modal-body .socialMedia .master, .mainIndex .modalfade .modal-content .modal-body .socialMedia .pp, .mainIndex .modalfade .modal-content .modal-body .socialMedia .mp, .mainIndex .modalfade .modal-content .modal-body .socialMedia .visa {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.sectionIndex1 .box-1 {
+  margin-top: 100px;
+  border: 3px solid #ffffff;
+  padding: 0;
+}
+.sectionIndex1 .box-1 .wp-section {
+  width: 100%;
+  height: 600px;
+}
+.sectionIndex1 .box-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #ffffff;
+}
+.sectionIndex1 .box-2 .imgBtmodal {
+  padding-left: 50px;
+}
+.sectionIndex1 .box-2 .title-1 {
+  color: #f5f5dc;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+.sectionIndex1 .box-2 .custom-btn {
+  background-color: #ff4500;
+  color: #ffffff;
+  width: 180px;
+  height: 60px;
+  margin-top: 100px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  border-color: #ffffff;
+}
+.sectionIndex1 .box-2 .custom-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ff4500;
+}
+.sectionIndex1 .modalfade {
+  background-color: #000000;
+  text-align: center;
+  color: #f5f5dc;
+  font-size: 40px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+}
+.sectionIndex1 .modalfade .modal-content {
+  border: 5px solid #ffffff;
+  background-color: #000000;
+}
+.sectionIndex1 .modalfade .modal-content .modal-header {
+  background-color: #000000;
+  text-align: center;
+  position: fixed;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body {
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 400px;
+  justify-content: space-between;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .h1-modal-events {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .box-modal-1 {
+  width: 20px;
+  height: 20px;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .box-modal-1 .p-date {
+  font-family: "Farro", sans-serif;
+  color: #f5f5dc;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-left: 2px solid #ff4500;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .box-modal-2 {
+  width: 120x;
+  height: 80px;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .box-modal-2 .p-description-date1 {
+  font-family: "Farro", sans-serif;
+  color: #f5f5dc;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.sectionIndex1 .modalfade .modal-content .modal-body .modal-flex .box-modal-2 .p-description-date2 {
+  font-family: "Farro", sans-serif;
+  color: #f5f5dc;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ff4500;
+  margin-left: 30px;
+}
+.sectionIndex1 .modalfade .modal-content .modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f5f5dc;
+}
+.sectionIndex1 .modalfade .modal-content .modal-footer .modal-btn1 {
+  background-color: #000000;
+  border-color: #ff4500;
+  margin-top: 30px;
+  color: #f5f5dc;
+  width: 120px;
+  height: 30px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 15px;
+}
+
+.sectionIndex2 .section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.sectionIndex2 .section .boxSection-Motorcycle {
+  border: 2px solid #ffffff;
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  padding: 40px 10px 20px 10px;
+  font-size: 15px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.sectionIndex2 .section .boxSection-Motorcycle:hover > .img-box-section {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+  transition: 3s;
+}
+.sectionIndex2 .section .boxSection-Motorcycle:hover > .p1Section-motorcycle {
+  color: #ffffff;
+}
+.sectionIndex2 .section .boxSection-Motorcycle:hover > .p2Section-motorcycle {
+  transition: 3s;
+  font-size: 25px;
+  color: #ff4500;
+  opacity: 100%;
+}
+.sectionIndex2 .section .boxSection-Motorcycle .img-box-section {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  opacity: 100%;
+}
+.sectionIndex2 .section .boxSection-Motorcycle .p2Section-motorcycle {
+  padding-bottom: 30px;
+  font-size: 10px;
+  opacity: 3%;
+}
+.sectionIndex2 .section .boxSection-Motorcycle .p1Section-motorcycle {
+  padding: 5px;
+  color: #ff4500;
+}
+
+footer .footer-container {
+  margin-top: 30px;
+}
+footer .footer-container .ul-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  padding-left: 10px;
+}
+footer .footer-container .ul-footer .footer-h {
+  list-style: none;
+  width: 200px;
+  color: #ffffff;
+  font-family: "Farro", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer .footer-container .ul-footer .footer-h .span1 {
+  color: #ff4500;
+  font-size: 15px;
+  padding-left: 10px;
+}
+footer .footer-container .ul-footer .suscribe {
+  list-style: none;
+  padding-top: 10px;
+  font-family: "Farro", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+footer .footer-container .ul-footer .suscribe .a-1 {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 18px;
+}
+footer .footer-container .ul-footer .suscribe .a-1:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ff4500;
+  border-radius: 15px;
+}
+footer .footer-container .sub-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+footer .footer-container .sub-footer .custom-btn {
+  background-color: #ff4500;
+  width: 180px;
+  height: 60px;
+  margin-top: 100px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  border-color: #ffffff;
+}
+footer .footer-container .sub-footer .modalfade {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+}
+footer .footer-container .sub-footer .modalfade .modal-content {
+  border: 5px solid #ffffff;
+  background-color: #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-header {
+  background-color: #000000;
+  text-align: center;
+  position: fixed;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body {
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .p1-bt {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f5f5dc;
+  font-family: "Farro", sans-serif;
+  text-transform: uppercase;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .p1-bt .imgBt-personal {
+  width: 70px;
+  height: 70px;
+  border-bottom: 10px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .p1-bt .descriptionPersonal {
+  color: #f5f5dc;
+  font-size: 20px;
+  border-bottom: 1px solid #ff4500;
+  margin-top: 15px;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .p2-bt {
+  color: #f5f5dc;
+  font-size: 28px;
+  border-bottom: 2px solid #ff4500;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .face {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .face:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .insta {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .insta:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .x {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .x:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .yt {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #000000;
+}
+footer .footer-container .sub-footer .modalfade .modal-content .modal-body .socialMedia .yt:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .redes {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer .footer-container .sub-footer .redes .face {
+  width: 60px;
+  height: 60px;
+}
+footer .footer-container .sub-footer .redes .face:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .redes .insta {
+  width: 60px;
+  height: 60px;
+}
+footer .footer-container .sub-footer .redes .insta:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .redes .x {
+  width: 60px;
+  height: 60px;
+}
+footer .footer-container .sub-footer .redes .x:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+footer .footer-container .sub-footer .redes .yt {
+  width: 60px;
+  height: 60px;
+}
+footer .footer-container .sub-footer .redes .yt:hover {
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+}
+
+.mainMotorcycle .boxAudio {
+  padding: 0;
+  margin-top: 70px;
+  border: 1px solid #ffffff;
+  background-color: #f5f5dc;
+}
+.mainMotorcycle .boxAudio .imgBoxAudio {
+  width: 100%;
+}
+.mainMotorcycle .boxAudio .descriptionAudio {
+  margin-top: 15px;
+  background-color: #f5f5dc;
+  text-align: center;
+  height: 250px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.mainMotorcycle .boxAudio .descriptionAudio .log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.mainMotorcycle .boxAudio .descriptionAudio .log .img-log {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4500;
+  border-radius: 50px;
+}
+.mainMotorcycle .boxAudio .descriptionAudio .sub-Audio {
+  text-transform: uppercase;
+  color: #ff4500;
+  font-size: 15px;
+  font-family: "Farro", sans-serif;
+}
+
+section .boxMotorcycle {
+  margin-top: 70px;
+  margin-left: 60px;
+  background-color: #f5f5dc;
+  height: 350px;
+  border-radius: 15px;
+  transition: height 3s ease;
+  overflow: hidden;
+  border: 1px solid #f5f5dc;
+}
+section .boxMotorcycle:hover {
+  height: 660px;
+}
+section .boxMotorcycle .imgBoxMotorcycle {
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #ffffff;
+  border-bottom: 1px solid #000000;
+}
+section .boxMotorcycle .motorcycleName {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .boxMotorcycle .dataSheet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Farro", sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  color: #ff4500;
+  font-weight: bold;
+}
+section .boxMotorcycle .dataSheet:hover {
+  padding: 7px;
+  color: grey;
+  font-weight: bold;
+}
+section .boxMotorcycle .p2Motorcycle {
+  background-color: #f5f5dc;
+  margin-top: 38px;
+  color: #808080;
+  font-family: "Farro", sans-serif;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+section .boxMotorcycle .log-hd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section .boxMotorcycle .log-hd .imgLogHd {
+  width: 50px;
+  height: 50px;
+  margin-top: 38px;
+  border: 2px solid #ff4500;
+  border-radius: 50px;
+}
+
+section .boxHelmets {
+  margin-top: 70px;
+  margin-left: 60px;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  height: 360px;
+  transition: height 3s ease;
+  overflow: hidden;
+  border: 1px solid #f5f5dc;
+}
+section .boxHelmets:hover {
+  height: 650px;
+}
+section .boxHelmets .imgBoxHelmets {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+section .boxHelmets .p1helmets {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 15px;
+  color: #f5f5dc;
+  background-color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+section .boxHelmets .p2helmets {
+  background-color: #000000;
+  text-transform: uppercase;
+  padding: 2px;
+  font-size: 10px;
+  color: #f5f5dc;
+  font-weight: bold;
+}
+section .boxHelmets .log-hd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section .boxHelmets .log-hd .imgLogHd {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4500;
+  border-radius: 50px;
+}
+
+section .boxAudio01 {
+  margin-top: 70px;
+  margin-left: 60px;
+  background-color: #f5f5dc;
+  border: 1px solid #f5f5dc;
+  border-radius: 15px;
+  height: 355px;
+  transition: height 3s ease;
+  overflow: hidden;
+}
+section .boxAudio01:hover {
+  height: 800px;
+}
+section .boxAudio01 .imgBoxTiresAndRims {
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+section .boxAudio01 .p1Audio {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+}
+section .boxAudio01 .ulAudio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5dc;
+}
+section .boxAudio01 .ulAudio .liAudio, section .boxAudio01 .ulAudio .liAudio1 {
+  color: #808080;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 2px;
+}
+section .boxAudio01 .ulAudio .liAudio1 {
+  list-style: none;
+}
+section .boxAudio01 .log-hd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+section .boxAudio01 .log-hd .imgLogHd {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4500;
+  border-radius: 50px;
+}
+
+.fondMain {
+  height: 1500px;
+  width: 90vw;
+  background-image: url(../image/all-wallpapers/\ wallpapers-4.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 120px;
+}
+.fondMain .form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fondMain .form .form-box .form1 {
+  width: 80vw;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+.fondMain .form .form-box .form1:hover {
+  background-color: #f5f5dc;
+}
+.fondMain .form .form-box .form1:hover .img-form {
+  border: 3px solid #ff4500;
+}
+.fondMain .form .form-box .form1 .imgBoxform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fondMain .form .form-box .form1 .imgBoxform .img-form {
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.fondMain .form .form-box .form1 .h1-form {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 40px;
+}
+.fondMain .form .form-box .form1 .h2-form {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+}
+.fondMain .form .form-box .form1 .inputsItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fondMain .form .form-box .form1 .inputsItem .first input {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 200px;
+  border-radius: 5px;
+  display: block;
+  font-family: "Farro", sans-serif;
+  font-size: 15px;
+  border: 1px solid #000000;
+  font-weight: bold;
+}
+.fondMain .form .form-box .form1 .inputsItem .first label {
+  text-align: left;
+  margin-top: 20px;
+  display: block;
+  font-family: "Farro", sans-serif;
+  font-size: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+.fondMain .form .form-box .form1 .restForm .h3-form {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+}
+.fondMain .form .form-box .form1 .restForm .radioList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-family: "Farro", sans-serif;
+  font-size: 15px;
+}
+.fondMain .form .form-box .form1 .restForm .radioList .radio {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Farro", sans-serif;
+}
+.fondMain .form .form-box .form1 .check .h4-form {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Farro", sans-serif;
+}
+.fondMain .form .form-box .form1 .check .check-div1, .fondMain .form .form-box .form1 .check .check-div2, .fondMain .form .form-box .form1 .check .check-div3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: "Farro", sans-serif;
+}
+.fondMain .form .form-box .form1 .check .check, .fondMain .form .form-box .form1 .check .h6-form {
+  margin-top: 30px;
+  font-size: 12px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Farro", sans-serif;
+}
+.fondMain .form .form-box .form1 .check .check, .fondMain .form .form-box .form1 .check .h6-form span {
+  font-style: italic;
+  text-align: center;
+}
+.fondMain .form .form-box .form1 .check input {
+  width: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.fondMain .form .form-box .form1 .check input:hover {
+  border: 2px solid #ff4500;
+}
+
+section .boxAudioBAS {
+  margin-top: 70px;
+  margin-left: 60px;
+  background-color: #f5f5dc;
+  border: 1px solid #f5f5dc;
+  border-radius: 15px;
+  height: 355px;
+  transition: height 3s ease;
+  overflow: hidden;
+}
+section .boxAudioBAS:hover {
+  height: 550px;
+}
+section .boxAudioBAS .imgBoxAudio {
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+section .boxAudioBAS .title-Audio {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+}
+section .boxAudioBAS .log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+section .boxAudioBAS .log .img-log {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4500;
+  border-radius: 50px;
+}
+section .boxAudioBAS .sub-Audio {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #808080;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
