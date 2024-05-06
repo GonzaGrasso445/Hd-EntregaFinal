@@ -530,6 +530,59 @@ footer .footer-container .sub-footer .redes .yt:hover {
   border-radius: 5px;
 }
 
+section .dataSheet1 {
+  background-color: #f5f5dc;
+}
+section .dataSheet1 .imageDateSheet {
+  margin-top: 70px;
+  width: 100%;
+}
+section table {
+  width: 700px;
+  border: 1px solid #808080;
+}
+section table tr {
+  border: 2px solid #808080;
+}
+section table th {
+  background-color: #000000;
+  color: #ffffff;
+  width: 150px;
+  padding: 12px;
+  text-align: center;
+}
+section table th .img-nav {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ff4500;
+  border-radius: 50px;
+  margin-left: 0px;
+}
+section table th .img-nav:hover {
+  border: 3px solid #ff4500;
+}
+section table .td1 {
+  width: 150px;
+  padding: 12px;
+  font-family: "Farro", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f5f5dc;
+  color: #000000;
+}
+section table .td2 {
+  width: 150px;
+  padding: 12px;
+  font-family: "Farro", sans-serif;
+  font-size: 13px;
+  background-color: #f5f5dc;
+  border-collapse: collapse;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .mainMotorcycle .boxAudio {
   padding: 0;
   margin-top: 70px;
