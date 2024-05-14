@@ -1,7 +1,10 @@
-section{
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     .boxMotorcycle{
+
         margin-top:70px;
-        margin-left: 60px;
         background-color: $beige;
         height: 350px;
         border-radius: 15px;
@@ -71,3 +74,15 @@ section{
 
     }
 }
+
+@media only screen and (max-width: 576px){
+    .boxMotorcycle{
+        margin: 0 auto;
+       }
+   
+   
+   
+   }
+   
+   
+

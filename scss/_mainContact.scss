@@ -163,3 +163,29 @@
 
 
 }
+
+@media only screen and (max-width: 576px){
+    
+    .inputsItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .first input{
+        width: 100%;
+        padding: 3px;
+        .first label{
+        width: 100%;
+        text-align: center;
+
+
+
+        }
+
+    
+    }
+    
+   
+   }
+   
+   

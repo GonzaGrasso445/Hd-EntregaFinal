@@ -6,33 +6,31 @@
         background-color: $beige;
         .imgBoxAudio{
             width: 100%;
-            
         }
-        .descriptionAudio{
-            margin-top: 15px;
-            background-color: $beige;
-            text-align: center;
-            height: 250px;
-            color: $black;
+
+    }
+    .descriptionAudio{
+        background-color: $beige;
+        text-align: center;
+        color: $black;
+        text-transform: uppercase;
+        .log{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 10px;
+            .img-log{
+                width: 50px;
+                height: 50px;
+                border: 2px solid $darkOrange;
+                border-radius: 50px;
+            }
+        }
+        .sub-Audio{
             text-transform: uppercase;
-            .log{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                margin-bottom: 10px;
-                .img-log{
-                    width: 50px;
-                    height: 50px;
-                    border: 2px solid $darkOrange;
-                    border-radius: 50px;
-                }
-            }
-            .sub-Audio{
-                text-transform: uppercase;
-                color: $darkOrange;
-                font-size: 15px;
-                font-family: "Farro", sans-serif
-            }
+            color: $darkOrange;
+            font-size: 15px;
+            font-family: "Farro", sans-serif
         }
     }
 }

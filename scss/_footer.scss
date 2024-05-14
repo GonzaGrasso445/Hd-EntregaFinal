@@ -208,3 +208,32 @@ footer{
     }
     
 }
+
+@media only screen and (max-width: 576px){
+    .ul-footer{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       .suscribe{
+        margin-top: 40px;
+       }
+
+   
+   
+   
+   }
+   }
+
+@media only screen and (max-width: 576px){
+    .sub-footer{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+ 
+    
+    
+    
+    }
+    }
+   
+   
