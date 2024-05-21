@@ -1,0 +1,15 @@
+@mixin custom-btn{
+    background-color: $darkOrange;
+    width: 180px;
+    height: 60px;
+    margin-top: 60px;
+    font-family: "Farro", sans-serif;
+    text-transform: uppercase;
+    border-color: $white;
+    border-radius: 15px;
+    &:hover{
+        background-color: $black;
+        color: $white;
+        border-color: $darkOrange;
+    }
+}
