@@ -4,18 +4,18 @@
         margin-top: 80px;
         font-family: "Farro", sans-serif;
         border:none;
-        color: $white;
+        color: $beige;
         span{
             text-align: center;
             color: $darkOrange;
-            text-shadow: 1px 1px $white;
-            font-weight: bold;
+            text-shadow: 2px 2px $beige;
+
         }
     }
     .row{
         .box-1{
             margin-top: 100px;
-            border:3px solid $white;
+            border:3px solid $beige;
             padding: 0;
             .wp-main{
                 width: 100%;
@@ -31,7 +31,9 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            border:1px solid $white;
+            border-bottom:3px solid $beige;
+            border-right:3px solid $beige;
+            border-left:3px solid $beige;
             .imgBtmodal{
                 width: 150px;
                 height: 150px;
@@ -78,42 +80,63 @@
                     .modal-body{
                         font-family: "Farro", sans-serif;
                         text-transform: uppercase;
-                        background-color: $black;
+                        background-color: $beige;
                         display: flex;
                         flex-direction:column;
                         flex-wrap: wrap;
+                        align-items: center;
                         text-align: center;
+                        .imgModalCase{
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                            width: 100px;
+                            height: 100px;
+                            border: 1px solid $darkOrange;
+                            border-radius: 50px;
+                            &:hover{
+                                border: 3px solid $darkOrange;
+                            }
+                        }
                         h1{
-                            color:$beige;
+                            color:$grey;
+                            border-bottom: 1px solid $darkOrange;
+                            
                         }
                         h3{
-                            color:$beige;
-                            border-bottom: 2px solid $darkOrange;
+                            color:$darkOrange;
+         
                         }
                         .p1-bt{
                             font-size: 13px;
                             font-weight: bold;
-                            color: $beige;
+                            color: $grey;
                             font-family: "Farro", sans-serif;
                             text-transform: uppercase;
+                            
                         }
                         .p2-bt{
-                            color: $beige;
+                            color: $grey;
                             font-size: 28px;
                             border-bottom: 2px solid $darkOrange;
                         }
                         .socialMedia{
                             display :flex;
-                            justify-content: space-around;
+                            flex-direction: column;
+                            align-items: space-between;
                             margin-top: 30px;
-                            .master,.pp,.mp,.visa{
-                                width: 70px;
-                                height: 70px;
-                                border: 2px solid  $black;
-                                border-radius: 15px;
-                                
-                              
+                            .pSM{
+                                color: $grey;
+                                font-size: 15px;
+
+
                             }
+                            .click{
+                                color:$darkOrange;
+                                font-weight: bold;
+                                text-decoration: none;
+                
+                            }
+
                         }
 
                     }

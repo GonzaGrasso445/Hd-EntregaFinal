@@ -89,14 +89,14 @@ footer{
                         flex-wrap: wrap;
                         text-align: center;
                         .p1-bt{
-                            font-size: 15px;
+                            font-size: 13px;
                             font-weight: bold;
                             color: $beige;
                             font-family: "Farro", sans-serif;
                             text-transform: uppercase;
                             .imgBt-personal{
-                                width: 70px;
-                                height: 70px;
+                                width: 230px;
+                                height: 230px;
                                 border-bottom: 10px;
                                 border-radius: 15px;
                                 border: 2px solid $black;
@@ -106,16 +106,23 @@ footer{
                             .descriptionPersonal{
                                 color: $beige;
                                 font-size: 20px;
-                                border-bottom: 1px solid $darkOrange;
-                                margin-top: 15px;
+                                border-bottom: 2px solid $beige;
+                                margin-top: 10px;
                                 
                                 
+                            }
+                            .descriptionP{
+                                border: 2px solid $beige;
+                                padding: 10px;
+                                margin-top: 10px;
+                                background-color: $grey;
+                                text-transform:lowercase;
                             }
                         }
                         .p2-bt{
                             color: $beige;
-                            font-size: 28px;
-                            border-bottom: 2px solid $darkOrange;
+                            font-size: 20px;
+                            border-bottom: 2px solid $beige;
                         }
                         .socialMedia{
                             display :flex;
@@ -127,7 +134,7 @@ footer{
                                 padding: 10px;
                                 background-color: $black;
                                 &:hover{
-                                    border: 2px solid $darkOrange;
+                                    border: 2px solid $beige;
                                     border-radius: 5px;
                                 }
                             }
@@ -137,7 +144,7 @@ footer{
                                 padding: 10px;
                                 background-color: $black;
                                 &:hover{
-                                    border: 2px solid $darkOrange;
+                                    border: 2px solid $beige;
                                     border-radius: 5px;
                                 }
                             }
@@ -147,7 +154,7 @@ footer{
                                 padding: 10px;
                                 background-color: $black;
                                 &:hover{
-                                    border: 2px solid $darkOrange;
+                                    border: 2px solid $beige;
                                     border-radius: 5px;
                                 }
                             }
@@ -157,7 +164,7 @@ footer{
                                 padding: 10px;
                                 background-color: $black;
                                 &:hover{
-                                    border: 2px solid $darkOrange;
+                                    border: 2px solid $beige;
                                     border-radius: 5px;
                                 }
                             }

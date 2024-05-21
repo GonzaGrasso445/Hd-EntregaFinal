@@ -5,7 +5,7 @@
         justify-content: space-between;
         width: 100%;
         .boxSection-Motorcycle{
-            border: 2px solid $white;
+            border: 2px solid $beige;
             width: 250px;
             height: 250px;
             margin-top: 50px;
@@ -22,7 +22,7 @@
                 transition: 3s;
             }
             &:hover>.p1Section-motorcycle{
-                color: $white;
+                color: $beige;
             }
             &:hover>.p2Section-motorcycle{
                 transition: 3s;
@@ -34,6 +34,7 @@
                 width: 50px;
                 height: 50px;
                 margin-bottom: 20px;
+                border-radius: 50%;
                 opacity: 100%;
                 
 
